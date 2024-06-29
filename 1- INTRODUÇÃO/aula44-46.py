@@ -2,8 +2,6 @@ name = 'vasco'
 value = 58.59
 print('%s e %.2f' % (name, value))
 
-
-
 # INTERPOLAÇÃO DE STRINGS
 '''
     s = string
@@ -19,7 +17,6 @@ print('%s e %.2f' % (name, value))
         print('%s e %.2f' % (name, value))
 '''
 
-print(f'{21213.565:.2f}')
-print(len(name))
-name2 = 'vasco2'
-print(name2[0:2])
+vasco = 'vasco'
+print(vasco[2:3])
+print("maça"[0:2])
