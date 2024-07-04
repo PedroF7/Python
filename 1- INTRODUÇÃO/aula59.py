@@ -1,6 +1,19 @@
-import subprocess
+tst = True
+while tst:
+    try:
+        np = input('Digite um número: ')
+        if float(np) < 0:
+            print(f"'{np}' é negativo")
+            print("Encerrando o programa...")
+            break
+        else:
+            print(f"'{np}' + '{np}' é igual a: {float(np)+float(np) :.1f}")
+    except:
+        print(f'"{np}" não é um número')
+        print("tenta novamente")
+    
 
-ChormeOpen = r'C:\WINDOWS\system32\cmd.exe'
-vscodeOpen = r'D:\Microsoft VS Code\Code.exe'
-
-subprocess.run('start cmd /k"color a && dir/s"', shell=True)
+n = 0
+while n<=10:
+    print(n)
+    n+=1
